@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.mike.animation.R;
 import com.mike.animation.base.BaseActivity;
+import com.mike.animation.scene.SceneActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +39,7 @@ public class MainActivity extends BaseActivity {
     private void initDataList() {
         mDataList.add(new ItemDataBean("aniamtion",
                 com.mike.animation.test.MainActivity.class, ColorGenerator.getInstance().getColor()));
-
+        mDataList.add(new ItemDataBean("Scene",
+                SceneActivity.class, ColorGenerator.getInstance().getColor()));
     }
 }
