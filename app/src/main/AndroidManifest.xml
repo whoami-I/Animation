@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".test.MainActivity" />
         <activity android:name=".scene.SceneActivity" />
+        <activity android:name=".item_animation.MainActivity" />
     </application>
 
 </manifest>

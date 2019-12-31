@@ -41,5 +41,7 @@ public class MainActivity extends BaseActivity {
                 com.mike.animation.test.MainActivity.class, ColorGenerator.getInstance().getColor()));
         mDataList.add(new ItemDataBean("Scene",
                 SceneActivity.class, ColorGenerator.getInstance().getColor()));
+        mDataList.add(new ItemDataBean("Item Animation",
+                com.mike.animation.item_animation.MainActivity.class, ColorGenerator.getInstance().getColor()));
     }
 }
